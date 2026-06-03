@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta name="viewport"
+  content="width=device-width, initial-scale=1.0">
+
+  <title>Happy Birthday My Love ❤️</title>
+
+  <link rel="stylesheet"
+  href="style.css">
+
+  <link rel="preconnect"
+  href="https://fonts.googleapis.com">
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Great+Vibes&display=swap"
+  rel="stylesheet">
+
+</head>
+
+<body>
+
+    <div class="stars"></div>
+
+<!-- LOADER -->
+
+<div class="loader">
+
+  <h1>
+    Loading Our Love Story ❤️
+  </h1>
+
+</div>
+
+<!-- FLOATING HEARTS -->
+
+<div class="hearts">
+
+  <span>❤️</span>
+  <span>💖</span>
+  <span>💕</span>
+  <span>💗</span>
+  <span>💓</span>
+  <span>❤️</span>
+  <span>💖</span>
+  <span>💕</span>
+  <span>💗</span>
+  <span>💓</span>
+
+</div>
+
+<!-- MUSIC -->
+
+<audio id="music" autoplay loop>
+
+  <source src="music/song.mp3"
+  type="audio/mp3">
+
+</audio>
+
+<button id="music-btn">
+  🎵
+</button>
+
+<!-- HERO -->
+
+<section class="hero">
+
+  <h1>
+    Happy Birthday Baby ❤️
+  </h1>
+
+  <p>
+    A little universe made only for you ✨
+  </p>
+
+  <button onclick="scrollToGallery()">
+    Open Your Surprise 💖
+  </button>
+
+</section>
+
+<!-- COUNTDOWN -->
+
+<section class="countdown">
+
+  <h2>
+    Time Since I Fell For You ⏳
+  </h2>
+
+  <div class="count-box">
+
+    <span id="days">
+      0
+    </span>
+
+    <p>Days Together ❤️</p>
+
+  </div>
+
+</section>
+
+<!-- GALLERY -->
+
+<section class="gallery" id="gallery">
+
+  <h2>Our Memories 📸</h2>
+
+  <div class="photos">
+
+    <img src="images/photo1.png"
+    onclick="openImage(this.src)">
+
+    <img src="images/photo2.jpg"
+    onclick="openImage(this.src)">
+
+    <img src="images/photo3.jpg"
+    onclick="openImage(this.src)">
+
+    
+    <img src="images/photo4.jpg"
+    onclick="openImage(this.src)">
+
+
+    <img src="images/photo5.jpg"
+    onclick="openImage(this.src)">
+
+
+    <img src="images/photo6.jpg"
+    onclick="openImage(this.src)">
+
+
+    <img src="images/photo7.jpg"
+    onclick="openImage(this.src)">
+
+
+    <img src="images/photo8.jpg"
+    onclick="openImage(this.src)">
+
+
+    <img src="images/photo9.jpg"
+    onclick="openImage(this.src)">
+
+
+    <img src="images/photo10.jpg"
+    onclick="openImage(this.src)">
+
+
+    <img src="images/photo11.jpg"
+    onclick="openImage(this.src)">
+
+
+    <img src="images/photo12.jpg"
+    onclick="openImage(this.src)">
+
+
+    <img src="images/photo13.jpg"
+    onclick="openImage(this.src)">
+
+
+    <img src="images/photo14.jpg"
+    onclick="openImage(this.src)">
+
+
+    <img src="images/photo15.jpg"
+    onclick="openImage(this.src)">
+
+
+    <img src="images/photo16.jpg"
+    onclick="openImage(this.src)">
+
+
+    <img src="images/photo17.jpg"
+    onclick="openImage(this.src)">
+
+
+    <img src="images/photo18.jpg"
+    onclick="openImage(this.src)">
+
+
+    <img src="images/photo19.jpg"
+    onclick="openImage(this.src)">
+
+
+    <img src="images/photo20.jpg"
+    onclick="openImage(this.src)">
+
+
+    <img src="images/photo21.jpg"
+    onclick="openImage(this.src)">
+
+
+    <img src="images/photo22.jpg"
+    onclick="openImage(this.src)">
+
+
+    <img src="images/photo23.jpg"
+    onclick="openImage(this.src)">
+
+
+  </div>
+
+</section>
+
+<!-- POPUP -->
+
+<div class="popup" id="popup">
+
+  <div class="close"
+  onclick="closeImage()">
+    ❤️
+  </div>
+
+  <img id="popup-img">
+
+</div>
+
+<!-- LOVE LETTER -->
+
+<section class="letter">
+
+  <div class="letter-card">
+
+    <h2>My Letter To You 💌</h2>
+
+    <p>
+
+      Happy Birthday my love ❤️<br><br>
+
+      Thank you for being my comfort,
+      my happiness,
+      my safe place,
+      and my favorite person.<br><br>
+
+      Every moment with you feels special,
+      even the simplest ones 🌸<br><br>
+
+      I hope this year brings you
+      endless happiness,
+      success,
+      peace,
+      and all the love you deserve ✨<br><br>
+
+      I love you more than words can explain ❤️
+
+    </p>
+
+  </div>
+
+</section>
+
+<!-- 50 REASONS -->
+
+<section class="reasons">
+
+  <h2>
+    50 Reasons I Love You 💖
+  </h2>
+
+  <div class="reasons-grid">
+
+    <div class="reason-card">
+      Your smile 🌸
+    </div>
+
+    <div class="reason-card">
+      Your voice ❤️
+    </div>
+
+    <div class="reason-card">
+      The way you care ✨
+    </div>
+
+    <div class="reason-card">
+      Your silly jokes 😂
+    </div>
+
+    <div class="reason-card">
+      Your hugs 🤍
+    </div>
+
+    <div class="reason-card">
+      The way you make me feel safe 💖
+    </div>
+
+  </div>
+
+</section>
+
+<!-- BIRTHDAY CAKE -->
+
+<section class="cake-section">
+
+  <h2>
+    Make A Birthday Wish 🎂
+  </h2>
+
+  <div class="cake-container"
+  onclick="blowCandles()">
+
+    <!-- CANDLES -->
+
+    <div class="candles">
+
+      <div class="candle">
+        <div class="flame"></div>
+      </div>
+
+      <div class="candle">
+        <div class="flame"></div>
+      </div>
+
+      <div class="candle">
+        <div class="flame"></div>
+      </div>
+
+    </div>
+
+    <!-- CAKE -->
+
+    <div class="cake"></div>
+
+  </div>
+
+  <p id="wish-message">
+    🎉 Happy Birthday My Love ❤️
+  </p>
+
+</section>
+
+<!-- ENDING -->
+
+<section class="ending">
+
+  <h2>
+    I’ll Always Choose You ❤️
+  </h2>
+
+</section>
+
+<div class="fireworks">
+
+  <span></span>
+  <span></span>
+  <span></span>
+  <span></span>
+  <span></span>
+
+</div>
+
+<section class="surprise">
+
+  <button onclick="showSurprise()"
+  class="surprise-btn">
+
+    Don't Click This 👀
+
+  </button>
+
+  <div id="secret-message">
+
+    ❤️
+    You are the best thing
+    that ever happened to me
+    ❤️
+
+  </div>
+
+</section>
+
+<script src="script.js"></script>
+
+</body>
+</html>
